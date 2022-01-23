@@ -15,7 +15,6 @@ import (
 	"compress/gzip"
 	"context"
 	"crypto/rand"
-	tls "github.com/Carcraftz/utls"
 	"crypto/x509"
 	"encoding/binary"
 	"errors"
@@ -38,12 +37,14 @@ import (
 	"testing/iotest"
 	"time"
 
-	. "github.com/Carcraftz/fhttp"
-	"github.com/Carcraftz/fhttp/httptest"
-	"github.com/Carcraftz/fhttp/httptrace"
-	"github.com/Carcraftz/fhttp/httputil"
-	"github.com/Carcraftz/fhttp/internal"
-	"github.com/Carcraftz/fhttp/internal/nettrace"
+	tls "github.com/papermario8420/utls"
+
+	. "github.com/papermario8420/fhttp"
+	"github.com/papermario8420/fhttp/httptest"
+	"github.com/papermario8420/fhttp/httptrace"
+	"github.com/papermario8420/fhttp/httputil"
+	"github.com/papermario8420/fhttp/internal"
+	"github.com/papermario8420/fhttp/internal/nettrace"
 
 	"golang.org/x/net/http/httpguts"
 )

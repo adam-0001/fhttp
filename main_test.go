@@ -15,7 +15,7 @@ import (
 	"testing"
 	"time"
 
-	http "github.com/Carcraftz/fhttp"
+	http "github.com/papermario8420/fhttp"
 )
 
 var quietLog = log.New(io.Discard, "", 0)

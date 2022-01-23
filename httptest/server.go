@@ -7,7 +7,6 @@
 package httptest
 
 import (
-	tls "github.com/Carcraftz/utls"
 	"crypto/x509"
 	"flag"
 	"fmt"
@@ -18,8 +17,10 @@ import (
 	"sync"
 	"time"
 
-	http "github.com/Carcraftz/fhttp"
-	"github.com/Carcraftz/fhttp/internal"
+	tls "github.com/papermario8420/utls"
+
+	http "github.com/papermario8420/fhttp"
+	"github.com/papermario8420/fhttp/internal"
 )
 
 // A Server is an HTTP server listening on a system-chosen port on the

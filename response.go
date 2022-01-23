@@ -9,7 +9,6 @@ package http
 import (
 	"bufio"
 	"bytes"
-	tls "github.com/Carcraftz/utls"
 	"errors"
 	"fmt"
 	"io"
@@ -17,6 +16,8 @@ import (
 	"net/url"
 	"strconv"
 	"strings"
+
+	tls "github.com/papermario8420/utls"
 
 	"golang.org/x/net/http/httpguts"
 )

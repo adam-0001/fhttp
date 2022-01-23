@@ -1,7 +1,6 @@
 package http_test
 
 import (
-	tls "github.com/Carcraftz/utls"
 	"crypto/x509"
 	"encoding/json"
 	"flag"
@@ -12,8 +11,10 @@ import (
 	"strings"
 	"testing"
 
-	http "github.com/Carcraftz/fhttp"
-	"github.com/Carcraftz/fhttp/http2"
+	tls "github.com/papermario8420/utls"
+
+	http "github.com/papermario8420/fhttp"
+	"github.com/papermario8420/fhttp/http2"
 )
 
 // Basic http test with Header Order + enable push

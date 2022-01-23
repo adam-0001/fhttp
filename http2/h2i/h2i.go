@@ -2,6 +2,7 @@
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
 
+//go:build aix || darwin || dragonfly || freebsd || linux || netbsd || openbsd || solaris || windows
 // +build aix darwin dragonfly freebsd linux netbsd openbsd solaris windows
 
 /*
@@ -22,7 +23,6 @@ package main
 import (
 	"bufio"
 	"bytes"
-	tls "github.com/Carcraftz/utls"
 	"errors"
 	"flag"
 	"fmt"
@@ -35,8 +35,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/Carcraftz/fhttp/http2"
-	"github.com/Carcraftz/fhttp/http2/hpack"
+	tls "github.com/papermario8420/utls"
+
+	"github.com/papermario8420/fhttp/http2"
+	"github.com/papermario8420/fhttp/http2/hpack"
 	"golang.org/x/term"
 )
 

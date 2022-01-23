@@ -17,8 +17,8 @@ import (
 	"sync"
 	"time"
 
-	http "github.com/Carcraftz/fhttp"
-	"github.com/Carcraftz/fhttp/cgi"
+	http "github.com/papermario8420/fhttp"
+	"github.com/papermario8420/fhttp/cgi"
 )
 
 // request holds the state for an in-progress request. As soon as it's complete,

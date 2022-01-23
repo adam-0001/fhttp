@@ -12,7 +12,6 @@ import (
 	"compress/gzip"
 	"compress/zlib"
 	"context"
-	tls "github.com/Carcraftz/utls"
 	"encoding/json"
 	"errors"
 	"fmt"
@@ -36,11 +35,13 @@ import (
 	"testing"
 	"time"
 
-	. "github.com/Carcraftz/fhttp"
-	"github.com/Carcraftz/fhttp/httptest"
-	"github.com/Carcraftz/fhttp/httputil"
-	"github.com/Carcraftz/fhttp/internal"
-	"github.com/Carcraftz/fhttp/internal/testenv"
+	tls "github.com/papermario8420/utls"
+
+	. "github.com/papermario8420/fhttp"
+	"github.com/papermario8420/fhttp/httptest"
+	"github.com/papermario8420/fhttp/httputil"
+	"github.com/papermario8420/fhttp/internal"
+	"github.com/papermario8420/fhttp/internal/testenv"
 )
 
 type dummyAddr string

@@ -29,7 +29,6 @@ import (
 	"bufio"
 	"bytes"
 	"context"
-	tls "github.com/Carcraftz/utls"
 	"errors"
 	"fmt"
 	"io"
@@ -46,8 +45,10 @@ import (
 	"sync"
 	"time"
 
-	http "github.com/Carcraftz/fhttp"
-	"github.com/Carcraftz/fhttp/http2/hpack"
+	tls "github.com/papermario8420/utls"
+
+	http "github.com/papermario8420/fhttp"
+	"github.com/papermario8420/fhttp/http2/hpack"
 
 	"golang.org/x/net/http/httpguts"
 )
