@@ -13,9 +13,9 @@ import (
 	"reflect"
 	"time"
 
-	tls "github.com/papermario8420/utls"
+	tls "github.com/adam-0001/utls"
 
-	"github.com/papermario8420/fhttp/internal/nettrace"
+	"github.com/adam-0001/fhttp/internal/nettrace"
 )
 
 // unique type to prevent assignment.

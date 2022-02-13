@@ -25,10 +25,10 @@ import (
 	"sync"
 	"time"
 
-	tls "github.com/papermario8420/utls"
+	tls "github.com/adam-0001/utls"
 
 	"cloud.google.com/go/storage"
-	"github.com/papermario8420/fhttp/http2"
+	"github.com/adam-0001/fhttp/http2"
 	"go4.org/syncutil/singleflight"
 	"golang.org/x/build/autocertcache"
 	"golang.org/x/crypto/acme/autocert"

@@ -28,9 +28,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	tls "github.com/papermario8420/utls"
+	tls "github.com/adam-0001/utls"
 
-	"github.com/papermario8420/fhttp/httptrace"
+	"github.com/adam-0001/fhttp/httptrace"
 
 	"golang.org/x/net/http/httpguts"
 	"golang.org/x/net/http/httpproxy"

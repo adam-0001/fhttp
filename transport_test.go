@@ -37,14 +37,14 @@ import (
 	"testing/iotest"
 	"time"
 
-	tls "github.com/papermario8420/utls"
+	tls "github.com/adam-0001/utls"
 
-	. "github.com/papermario8420/fhttp"
-	"github.com/papermario8420/fhttp/httptest"
-	"github.com/papermario8420/fhttp/httptrace"
-	"github.com/papermario8420/fhttp/httputil"
-	"github.com/papermario8420/fhttp/internal"
-	"github.com/papermario8420/fhttp/internal/nettrace"
+	. "github.com/adam-0001/fhttp"
+	"github.com/adam-0001/fhttp/httptest"
+	"github.com/adam-0001/fhttp/httptrace"
+	"github.com/adam-0001/fhttp/httputil"
+	"github.com/adam-0001/fhttp/internal"
+	"github.com/adam-0001/fhttp/internal/nettrace"
 
 	"golang.org/x/net/http/httpguts"
 )

@@ -11,9 +11,9 @@ import (
 	"io"
 	"strings"
 
-	tls "github.com/papermario8420/utls"
+	tls "github.com/adam-0001/utls"
 
-	http "github.com/papermario8420/fhttp"
+	http "github.com/adam-0001/fhttp"
 )
 
 // NewRequest returns a new incoming server Request, suitable

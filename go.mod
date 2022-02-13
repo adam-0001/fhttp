@@ -1,4 +1,4 @@
-module github.com/papermario8420/fhttp
+module github.com/adam-0001/fhttp
 
 go 1.16
 

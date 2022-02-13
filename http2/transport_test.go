@@ -31,12 +31,12 @@ import (
 	"testing"
 	"time"
 
-	tls "github.com/papermario8420/utls"
+	tls "github.com/adam-0001/utls"
 
-	http "github.com/papermario8420/fhttp"
-	"github.com/papermario8420/fhttp/http2/hpack"
-	"github.com/papermario8420/fhttp/httptest"
-	"github.com/papermario8420/fhttp/httptrace"
+	http "github.com/adam-0001/fhttp"
+	"github.com/adam-0001/fhttp/http2/hpack"
+	"github.com/adam-0001/fhttp/httptest"
+	"github.com/adam-0001/fhttp/httptrace"
 )
 
 var (

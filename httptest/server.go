@@ -17,10 +17,10 @@ import (
 	"sync"
 	"time"
 
-	tls "github.com/papermario8420/utls"
+	tls "github.com/adam-0001/utls"
 
-	http "github.com/papermario8420/fhttp"
-	"github.com/papermario8420/fhttp/internal"
+	http "github.com/adam-0001/fhttp"
+	"github.com/adam-0001/fhttp/internal"
 )
 
 // A Server is an HTTP server listening on a system-chosen port on the
